@@ -1,0 +1,72 @@
+/* Cyberpunk Theme */
+body {
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffcc;
+    background: rgba(13, 13, 13, 0.9);
+}
+
+h1, h2 {
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00ffcc;
+    background: black;
+    color: #00ffcc;
+    font-size: 1.2em;
+}
+
+button {
+    background: #ff007f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px #ff007f;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff00ff;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #00ffcc;
+    padding: 10px;
+}
+
+th {
+    background: #001f1f;
+}
+
+.success {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.failed {
+    color: #ff0000;
+    font-weight: bold;
+}
